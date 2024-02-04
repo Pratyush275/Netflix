@@ -191,9 +191,8 @@
 
    <script>
         
-        // Show/hide faq questions 
-
-        const faqs = document.querySelectorAll('.faq');
+    
+ const faqs = document.querySelectorAll('.faq');
 
         faqs.forEach(faq => {
             faq.addEventListener('click', () => {
